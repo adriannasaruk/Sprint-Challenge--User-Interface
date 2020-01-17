@@ -193,6 +193,61 @@ background:dodgerblue;
     padding-right: 0;
 }
 
+
+
+.parent1 {
+    display:flex;
+    max-width:100%;
+    justify-content:space-evenly;
+    padding-top: 20px;
+    border-top: black dashed 1px;
+ 
+}
+.parent2 {
+   display:flex;
+   max-width:100%;
+   justify-content: space-evenly;
+   
+   
+   
+}
+
+.child1 {
+    justify-content:center;
+   width:46%;
+    padding: 20px 0;
+    border-bottom: black dashed 2px;
+}
+.child2 {
+   width: 46%;
+    padding:20px 0;
+    border-bottom: black dashed 2px;
+}
+.child3 {
+    width:46%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: black dashed 1px;
+}
+.child4 {
+    width:46%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: black dashed 1px;
+}
+
+h2{
+    margin-top:20px;
+}
+button{
+    border: 2px solid black;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
 footer {
     width: 100%;
     background: black;
